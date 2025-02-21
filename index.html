@@ -62,7 +62,7 @@ document.addEventListener("keydown", function(e) {
       </nav>   <!-- .navbar -->
 
       <div class="social-links">
-        <a href="https://github.com/SeydinaDiop" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://github.com/LayeOzil" class="github"><i class="bi bi-github"></i></a>
         <a href="#" class="codepen"><i class="bi bi-facebook"></i></a>
 	     <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="overflow"><i class="bi bi-stack"></i></a>
@@ -201,7 +201,7 @@ document.addEventListener("keydown", function(e) {
         
           <div class="resume-item pb-0">
             <h4>Recherche de Stage de fin d'etudes en cybersécurité</h4>
-            <p><em>Innovant et ingénieux, animé par la volonté de toujours aller plus loin, avec une connaissance en cybersécurité et un désir constant d'apprendre. </em></p>
+            <p><em>Innovant et ingénieux, animé par la volonté de toujours aller plus loin, avec une grande expertise en cybersécurité et un désir constant d'apprendre. </em></p>
             <p>
             <ul>
               <li>France métropolitaine</li>
@@ -295,11 +295,16 @@ document.addEventListener("keydown", function(e) {
 
       <div class="section-title">
         <h2>Portfolio</h2>
-  
         <br>
         <p>Mes Projets</p>
       </div>
-
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter=".filter-app">Académiques</li>
+          </ul>
+        </div>
+      </div>
       <div class="row portfolio-container">
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -314,7 +319,7 @@ document.addEventListener("keydown", function(e) {
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/Wifi1.png" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -325,7 +330,7 @@ document.addEventListener("keydown", function(e) {
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-analisis">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/courriel.png" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -337,7 +342,7 @@ document.addEventListener("keydown", function(e) {
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/ddos1.png" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -351,7 +356,7 @@ document.addEventListener("keydown", function(e) {
         </div>
 
  
-        <div class="col-lg-4 col-md-6 portfolio-item filter-analisis">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrapa">
             <img src="assets/img/portfolio/patrimoine.jpeg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -366,7 +371,7 @@ document.addEventListener("keydown", function(e) {
 
 
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
             <img src="./assets/img/portfolio/google.jpeg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -377,7 +382,7 @@ document.addEventListener("keydown", function(e) {
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
             <img src="./assets/img/portfolio/telemedecine1.png" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -389,6 +394,164 @@ document.addEventListener("keydown", function(e) {
         </div>
 
       </div>
+      <div class="container">
+
+        <div class="section-title">
+          <br>
+          
+        </div>
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter=".filter-tools">Outils</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-container">
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tools">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Nmap.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Nmap</h4>
+                <p>Scan des réseaux et découverte des ports, les services ouverts, les vulnérabilités potentielles et les configurations de sécurité..</p>
+                <div class="portfolio-links">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tools">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/pfsense.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Pfsense</h4>
+                <p>pfSense est un pare-feu et routeur open-source puissant, utilisé en cybersécurité pour protéger et gérer les réseaux grâce à ses fonctionnalités avancées comme le filtrage de paquets et le VPN.</p>
+                <div class="portfolio-links">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/wireshark.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Wireshark</h4>
+                <p>Analyse du trafic réseau.</p>
+                <div class="portfolio-links">
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/snort.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Snort</h4>
+                <p>Systèmes de détection/prévention d’intrusions (IDS/IPS).</p>
+                <div class="portfolio-links">
+                  </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/metasploit.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4> Metasploit </h4>
+                <p> Framework pour exploiter des vulnérabilités. </p>
+                <div class="portfolio-links">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrapa">
+              <img src="assets/img/portfolio/Wallix.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Wallix Bastion</h4>
+                <p>Solution de gestion des accès à privilèges (PAM) qui renforce la sécurité des systèmes d'information en contrôlant et en traçant les accès aux ressources critiques.</p>
+                <div class="portfolio-links">
+     
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/portfolio/virustotal.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Virus Total</h4>
+                <p> service en ligne qui permet d'analyser des fichiers et des URL en les soumettant à plusieurs moteurs antivirus et outils de détection pour identifier d'éventuelles menaces ou logiciels malveillants.</p>
+                <div class="portfolio-links">
+                </div>
+              </div>
+            </div>
+          </div>
+ 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/portfolio/cyberchef.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cyber chef</h4>
+                <p>outil open-source polyvalent conçu pour l'analyse et la manipulation de données, permettant d'effectuer facilement des opérations comme le décodage, l'encodage, le chiffrement, et l'analyse de fichiers dans un environnement convivial basé sur le glisser-déposer.</p>
+                <div class="portfolio-links">
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/portfolio/knowBe4.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>KnowBe4</h4>
+                <p> plateforme spécialisée en sensibilisation à la cybersécurité et en formation à l’ingénierie sociale. </p>
+                <div class="portfolio-links">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/portfolio/autopsy.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Autopsy</h4>
+                <p>Outil open-source utilisé pour l'analyse forensic des systèmes de fichiers, permettant d'examiner et de récupérer des preuves numériques lors d'enquêtes de cybersécurité.</p>
+                <div class="portfolio-links">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/portfolio/Wazuh.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Wazuh</h4>
+                <p>Plateforme open-source de sécurité qui permet de surveiller les systèmes, détecter les intrusions et gérer les événements de sécurité. Elle aide à analyser les logs, à identifier les menaces et à répondre aux incidents de manière proactive.</p>
+                <div class="portfolio-links">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/portfolio/OpenVas.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>OpenVas</h4>
+                <p>plateforme open-source utilisée pour la gestion des vulnérabilités, permettant de scanner et d'évaluer la sécurité des systèmes informatiques pour détecter d'éventuelles failles.</p> 
+                <div class="portfolio-links">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
   </section>
   <!-- End Portfolio Section -->
@@ -422,7 +585,7 @@ document.addEventListener("keydown", function(e) {
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
               <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="https://github.com/SeydinaDiop" class="google-plus"><i class="bi bi-github"></i></a>
+              <a href="https://github.com/LayeOzil" class="google-plus"><i class="bi bi-github"></i></a>
               <a href="https://www.linkedin.com/in/seydinalayediop/" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
